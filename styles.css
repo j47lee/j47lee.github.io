@@ -11,3 +11,26 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+.quote {
+  font-size: 3em;
+  padding-top: 20%;
+  padding-left: 10%;
+  color: white;
+}
+
+.clip-circle {
+  background:url("assets/headshot.jpg") no-repeat;
+  background-size:300px 450px;
+  background-position:0px 0px;
+  height:300px;
+  width:300px;
+  border-radius:50%;
+  overflow:hidden;
+  margin:auto;
+}
+
+.box-shad {
+  box-shadow:
+    0 0 150px 20px #000 inset;
+}
