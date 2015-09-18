@@ -28,17 +28,16 @@ header {
   border-width: 15px;
 }
 
+.quote {
+  font-size: 2.5em;
+}
+
 .banner {
   text-align: center;
   padding-top: 5%;
   color: white;
   height: 300px;
   background-color: orange;
-}
-
-.quote {
-  font-size: 2.5em;
-  color: white;
 }
 
 .portfolio-image {
