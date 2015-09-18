@@ -1,0 +1,13 @@
+nav {
+  opacity: 0.5;
+}
+
+header {
+  background-image: url("assets/apple-desk-laptop-working.jpg");
+  /*background-image: url("assets/macbook-computer-clean-hero.jpg");*/
+  background-repeat: no-repeat;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
