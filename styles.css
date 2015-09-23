@@ -60,6 +60,7 @@ header {
 }
 
 #portfolio-section {
+  height: 500px;
   /*background-color: #303030;*/
 }
 
@@ -67,12 +68,6 @@ header {
   margin: 0;
   padding: 0;
   height: 20%;
-}
-
-#portfolio-github {
-  color: white;
-  heigth: 400px;
-  background-color: #303030;
 }
 
 #contact-section {
