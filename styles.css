@@ -1,3 +1,7 @@
+html,body{
+  text-align: center;
+}
+
 nav {
   opacity: 0.5;
 }
@@ -10,13 +14,17 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  text-align: center;
+}
+
+.portrait {
+  padding-top: 10%;
+  position: relative;
 }
 
 .clip-circle {
   background:url("assets/headshot.jpg") no-repeat;
   background-size:400px 600px;
-  background-position:-10px 0px;
+  background-position:-10px 0;
   height:400px;
   width:400px;
   border-radius:50%;
@@ -28,14 +36,15 @@ header {
   border-width: 15px;
 }
 
+.white {
+  color: white;
+}
+
 .quote {
   font-size: 2em;
-  text-align: center;
 }
 
 #about-section {
-  padding-top: 5%;
-  color: white;
   height: 200px;
   background-color: orange;
 }
@@ -48,25 +57,20 @@ header {
 }
 
 #portfolio-section {
-  padding-top: 10%;
   color: white;
-  height: 800px;
-  background-color: #303030
-;
+  background-color: #303030;
 }
 
 .portfolio-image {
   margin: 0;
   padding: 0;
-  height: 40%;
+  height: 20%;
 }
 
 #contact-section {
   padding-top: 7%;
   padding-bottom: 35%;
-  /*color: white;*/
   height: 100px;
-  /*background-color: white;*/
 }
 
 .email {
