@@ -44,27 +44,35 @@ header {
   font-size: 2em;
 }
 
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 #about-section {
-  height: 200px;
-  background-color: orange;
+  height: 400px;
+  background-color: #ee4b28;
 }
 
 #services-section {
-  padding-top: 5%;
-  /*color: white;*/
-  height: 200px;
-  /*background-color: white;*/
+  height: 400px;
 }
 
 #portfolio-section {
-  color: white;
-  background-color: #303030;
+  /*background-color: #303030;*/
 }
 
 .portfolio-image {
   margin: 0;
   padding: 0;
   height: 20%;
+}
+
+#portfolio-github {
+  color: white;
+  heigth: 400px;
+  background-color: #303030;
 }
 
 #contact-section {
