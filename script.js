@@ -14,12 +14,4 @@ $(document).ready(function(){
     }
   });
 
-
-  // $('.portfolio-image').hover(function(){
-  //   // alert('hovered')
-  //   console.log(this);
-  //   $(this).toggle()
-  // })
-
-
 });//end IIFE
