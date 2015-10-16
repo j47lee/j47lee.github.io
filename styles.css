@@ -92,3 +92,19 @@ header {
 a:hover {
   text-decoration: none;
 }
+
+.description {
+  font-family: serif;
+  font-style: italic;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: .8em;
+}
+
+#skills-description {
+  color: #E6E6E6;
+}
+
+#service-description {
+  color: #7D1900;
+}
